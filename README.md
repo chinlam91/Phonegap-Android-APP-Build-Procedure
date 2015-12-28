@@ -16,11 +16,11 @@
     
   - Check your APK . If the apk is signed , the console will show "signed"
     
-    ```$jarsigner -verfiy -verbose -certs my_application.apk```
+    ```$ jarsigner -verfiy -verbose -certs my_application.apk```
     
   - Zip your final apk 
   
-    ```zipalign -v 4 your_application.apk xxx.apk``` 
+    ```$ zipalign -v 4 your_application.apk xxx.apk``` 
     
     _Hint: You can rename the xxx.apk._
     
