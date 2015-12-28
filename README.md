@@ -2,7 +2,7 @@
 
 ###Use command line to package your code as release mode. Here is the sample for using cordova .
     
-    cordova build --release android
+    ＄cordova build --release android
 ###Signing Your App Manually
   - Using keytool to generate your key
 
