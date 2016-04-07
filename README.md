@@ -12,11 +12,11 @@
   
   - Sign your app (.apk you created at the first step) with the key
   
-    ```$ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-publish.keystore my_application.apk alias_name```
+    ```$ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-publish.keystore(the key you generated) my_application.apk alias_name(your register)```
     
   - Check your APK . If the apk is signed , the console will show "signed"
     
-    ```$ jarsigner -verfiy -verbose -certs my_application.apk```
+    ```$ jarsigner -verifyy -verbose -certs my_application.apk```
     
   - Zip your final apk 
   
