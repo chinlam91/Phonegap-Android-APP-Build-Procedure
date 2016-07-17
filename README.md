@@ -16,7 +16,7 @@
     
   - Check your APK . If the apk is signed , the console will show "signed"
     
-    ```$ jarsigner -verifyy -verbose -certs my_application.apk```
+    ```$ jarsigner -verify -verbose -certs my_application.apk```
     
   - Zip your final apk 
   
